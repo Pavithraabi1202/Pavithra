@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
 export class HopeComponent {
 
   // items = ['Hope','Tutors','Training','Institute','Chennai','India'];
-   @Input() customColor!: string;
+   //@Input() customColor!: string;
   // addItem(newItem: string) {
   //   this.items.push(newItem);
   // }

@@ -7,6 +7,7 @@ import { TopLayerComponent } from "./Contantprojection/top-layer/top-layer.compo
 import { ComponentInteractComponent } from "./comp-communicate/component-interact/component-interact.component";
 import { ParentComponent } from "./comp-communicate/parent/parent.component";
 import { MuraliComponent } from "./C-Cummunicate/murali/murali.component";
+import { AddnewComponent } from "./addnew/addnew.component";
 
 
 
@@ -19,6 +20,8 @@ const routes: Routes = [
   { path: 'ComponentInteractComponent', component: ComponentInteractComponent},
   { path: 'parentTochild', component: ParentComponent},
   { path: 'C-Cummunicate', component: MuraliComponent},
+  { path: 'AddCustomer', component: AddnewComponent},
+   
    
 ];
 

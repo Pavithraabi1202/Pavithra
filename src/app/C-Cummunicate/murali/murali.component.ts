@@ -7,7 +7,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class MuraliComponent {
   
-  colorInfo: string = 'red';
+ // colorInfo: string = 'red';
   
 
   // addNewItem(value: string) {

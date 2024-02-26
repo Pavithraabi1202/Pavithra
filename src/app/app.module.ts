@@ -17,13 +17,15 @@ import { ChildComponent } from './comp-communicate/child/child.component';
 import { ParentComponent } from './comp-communicate/parent/parent.component';
 import { MuraliComponent } from './C-Cummunicate/murali/murali.component';
 import { TokenInterceptor } from './shared/token.interceptor';
+import { AddnewComponent } from './addnew/addnew.component';
 
 
 @NgModule({
   declarations: [AppComponent,PaviloginComponent,
     PippaexComponent, 
     BottomLayerComponent,TopLayerComponent,
-    FirstComponent,SecondComponent,ComponentInteractComponent,ChildComponent,ParentComponent,MuraliComponent
+    FirstComponent,SecondComponent,ComponentInteractComponent,AddnewComponent
+
 
     ],
 
