@@ -8,6 +8,7 @@ import { ComponentInteractComponent } from "./comp-communicate/component-interac
 import { ParentComponent } from "./comp-communicate/parent/parent.component";
 import { MuraliComponent } from "./C-Cummunicate/murali/murali.component";
 import { AddnewComponent } from "./addnew/addnew.component";
+import { ListingComponent } from "./listing/listing.component";
 
 
 
@@ -21,8 +22,12 @@ const routes: Routes = [
   { path: 'parentTochild', component: ParentComponent},
   { path: 'C-Cummunicate', component: MuraliComponent},
   { path: 'AddCustomer', component: AddnewComponent},
+  { path: 'Edit/:id', component: AddnewComponent},
+  { path: 'CustomerList', component: ListingComponent},
    
    
+   
+     
 ];
 
 

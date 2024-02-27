@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { CustomerInfo } from './customer-info';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -14,4 +15,17 @@ export class CustomerService {
     let data = this.http.post(this.apiurl + '/add', customerData);
     return data;
   }
+  LoadCustomerbycode(id: number) {
+    return this.http.get(this.apiurl + '/' + id);
+  }
+
+  LoadCustomer(): Observable<any> {
+    return this.http.get(this.apiurl);
+  }
+  RemoveCustomer(id: any){
+    return this.http.delete(this.apiurl +'/' + id);
+  }
+
+
 }
+

@@ -18,13 +18,18 @@ import { ParentComponent } from './comp-communicate/parent/parent.component';
 import { MuraliComponent } from './C-Cummunicate/murali/murali.component';
 import { TokenInterceptor } from './shared/token.interceptor';
 import { AddnewComponent } from './addnew/addnew.component';
+import { ListingComponent } from './listing/listing.component';
 
 
 @NgModule({
   declarations: [AppComponent,PaviloginComponent,
     PippaexComponent, 
-    BottomLayerComponent,TopLayerComponent,
-    FirstComponent,SecondComponent,ComponentInteractComponent,AddnewComponent
+    BottomLayerComponent,
+    TopLayerComponent,
+    FirstComponent,SecondComponent,
+    ComponentInteractComponent,
+    AddnewComponent,ParentComponent,
+    ChildComponent,ListingComponent 
 
 
     ],
