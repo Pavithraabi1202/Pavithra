@@ -19,7 +19,7 @@ export class ListingComponent {
       this.Customerdata = data.users;
     });
   }
-  public delect(id: number){
+  public delete(id: number){
     if(confirm('Are you sure to delect?')){
     this.service.RemoveCustomer(id).subscribe((result) =>{
      if(result != null){

@@ -19,6 +19,12 @@ import { MuraliComponent } from './C-Cummunicate/murali/murali.component';
 import { TokenInterceptor } from './shared/token.interceptor';
 import { AddnewComponent } from './addnew/addnew.component';
 import { ListingComponent } from './listing/listing.component';
+import { AnyComponent } from './Products/any/any.component';
+import { SenderComponent } from './RXJSExample/sender/sender.component';
+import { Receiver1Component } from './RXJSExample/receiver1/receiver1.component';
+import { Receiver2Component } from './RXJSExample/receiver2/receiver2.component';
+import { ObservableComponent } from './RXJSExample/observable/observable.component';
+import { PrimeTestComponent } from './Webworker/prime-test/prime-test.component';
 
 
 @NgModule({
@@ -29,7 +35,10 @@ import { ListingComponent } from './listing/listing.component';
     FirstComponent,SecondComponent,
     ComponentInteractComponent,
     AddnewComponent,ParentComponent,
-    ChildComponent,ListingComponent 
+    ChildComponent,ListingComponent,
+    AnyComponent,SenderComponent,
+    Receiver1Component,Receiver2Component,
+    ObservableComponent,PrimeTestComponent
 
 
     ],
