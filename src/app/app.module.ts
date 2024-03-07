@@ -25,6 +25,8 @@ import { Receiver1Component } from './RXJSExample/receiver1/receiver1.component'
 import { Receiver2Component } from './RXJSExample/receiver2/receiver2.component';
 import { ObservableComponent } from './RXJSExample/observable/observable.component';
 import { PrimeTestComponent } from './Webworker/prime-test/prime-test.component';
+import { AbiComponent } from './Recipes/abi/abi.component';
+import { TypeComponent } from './Users/type/type.component';
 
 
 @NgModule({
@@ -38,7 +40,8 @@ import { PrimeTestComponent } from './Webworker/prime-test/prime-test.component'
     ChildComponent,ListingComponent,
     AnyComponent,SenderComponent,
     Receiver1Component,Receiver2Component,
-    ObservableComponent,PrimeTestComponent
+    ObservableComponent,PrimeTestComponent,
+    AbiComponent,TypeComponent
 
 
     ],

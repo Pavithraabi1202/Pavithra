@@ -12,6 +12,8 @@ import { ListingComponent } from "./listing/listing.component";
 import { AnyComponent } from "./Products/any/any.component";
 import { SenderComponent } from "./RXJSExample/sender/sender.component";
 import { PrimeTestComponent } from "./Webworker/prime-test/prime-test.component";
+import { AbiComponent } from "./Recipes/abi/abi.component";
+import { TypeComponent } from "./Users/type/type.component";
 
 
 
@@ -30,6 +32,9 @@ const routes: Routes = [
   { path: 'Observables', component: SenderComponent },
   { path: 'Webworker', component: PrimeTestComponent},
   { path: 'ProductList', component: AnyComponent},
+  { path: 'RecipeList', component: AbiComponent},
+  { path: 'UserList', component: TypeComponent},
+   
    
    
    

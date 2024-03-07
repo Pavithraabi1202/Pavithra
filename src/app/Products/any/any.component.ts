@@ -15,7 +15,7 @@ export class AnyComponent {
 
   private LoadproductData() {
     this.service.Loadproducts().subscribe((data) => {
-      this.productdata = data.Products;
+      this.productdata = data.products;
     });
   }
 

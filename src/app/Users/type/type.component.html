@@ -1,0 +1,41 @@
+
+<div class="card-box">
+    <div class="row">
+      <div class="col-sm-4">
+        <a routerLink="create" id="addbtn" class="btn btn-sucess btn-rounded">Add New</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>id</th>
+              <th>firstName</th>
+              <th>lastName</th>
+              <th>maidenName</th>
+              <th> age</th>
+              
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of Userdata">
+              <td>{{item.id}} </td>
+              <td>{{item.firstName}}</td>
+              <td>{{item.lastName}} </td>
+              <td>{{item.maidenName}} </td>
+              <td>{{item.age}} </td>
+    
+              <td>
+                 <!-- <button routerLink="/Edit/{{item.id}}" class="btn btn-primary">Edit</button> -->
+                 <!-- <button (click)="delete(item.id)" class="btn btn-danger">Delete</button>  -->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  
+    </div>
+    </div>
+
