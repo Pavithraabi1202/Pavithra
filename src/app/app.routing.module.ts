@@ -14,6 +14,8 @@ import { SenderComponent } from "./RXJSExample/sender/sender.component";
 import { PrimeTestComponent } from "./Webworker/prime-test/prime-test.component";
 import { AbiComponent } from "./Recipes/abi/abi.component";
 import { TypeComponent } from "./Users/type/type.component";
+import { TigerComponent } from "./tiger/tiger.component";
+import { DatacheckerComponent } from "./Twowaydatabinding/datachecker/datachecker.component";
 
 
 
@@ -34,6 +36,9 @@ const routes: Routes = [
   { path: 'ProductList', component: AnyComponent},
   { path: 'RecipeList', component: AbiComponent},
   { path: 'UserList', component: TypeComponent},
+  { path: 'Recipeimages', component: TigerComponent},
+  { path: 'TwoWayDataBinding', component: DatacheckerComponent},
+   
    
    
    

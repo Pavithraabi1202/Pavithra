@@ -1,0 +1,29 @@
+
+
+
+<div class="container">
+    <div class="box">
+      <label for="Search">Search</label>
+    <input type="text" id="SearchText" #Search>
+   
+    <button type="submit" (click)="LoadRecipesInfo(Search.value)">Submit</button>
+  </div>
+    <div class="row"  >
+      <div *ngFor='let recipe of Recipes' class="col-md-4 col-lg-4">
+        <div class="thumbnail">
+          <img src="{{recipe.image}}" alt="Recipe" style="width:100%">
+            <div class="caption">
+              <p>{{recipe.name}}</p>
+              <br>
+              <p>{{recipe.rating}}</p>
+            </div>
+        </div>
+      </div>
+    <br>
+  </div>
+      
+  
+  
+  
+              ]
+          

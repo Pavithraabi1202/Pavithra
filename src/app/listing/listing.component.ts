@@ -11,9 +11,13 @@ export class ListingComponent {
   public Customerdata: any;
 
   constructor(private service: CustomerService) {
+    console.log("Constructor")
+    
+  }
+  ngOnInit(): void {
+    console.log("ngOnInit");
     this.LoadCustomerData();
   }
-
   private LoadCustomerData() {
     this.service.LoadCustomer().subscribe((data) => {
       this.Customerdata = data.users;
@@ -29,5 +33,9 @@ export class ListingComponent {
 })
     }
   }
+  ngOnDestroy() {
+    console.log("ngOnDestroy");
+  }
+
 
 }

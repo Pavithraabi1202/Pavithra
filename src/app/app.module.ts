@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app.routing.module';
@@ -27,6 +27,8 @@ import { ObservableComponent } from './RXJSExample/observable/observable.compone
 import { PrimeTestComponent } from './Webworker/prime-test/prime-test.component';
 import { AbiComponent } from './Recipes/abi/abi.component';
 import { TypeComponent } from './Users/type/type.component';
+import { TigerComponent } from './tiger/tiger.component';
+import { DatacheckerComponent } from './Twowaydatabinding/datachecker/datachecker.component';
 
 
 @NgModule({
@@ -41,7 +43,7 @@ import { TypeComponent } from './Users/type/type.component';
     AnyComponent,SenderComponent,
     Receiver1Component,Receiver2Component,
     ObservableComponent,PrimeTestComponent,
-    AbiComponent,TypeComponent
+    AbiComponent,TypeComponent,TigerComponent,DatacheckerComponent
 
 
     ],
@@ -51,7 +53,7 @@ import { TypeComponent } from './Users/type/type.component';
     BrowserModule,
     ReactiveFormsModule,
     HttpClientModule,
-    AppRoutingModule,
+    AppRoutingModule,FormsModule
   
   ],
   providers: [
